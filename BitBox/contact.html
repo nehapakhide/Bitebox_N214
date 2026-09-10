@@ -20,5 +20,74 @@
     <p>
         <a href="https://www.google.com/" target="_blank">Visit Google</a>
     </p>
+  <hr>
+  <h2>Customer Registration & Order form</h2>
+  <form>
+
+<label for="full name">Full name:</label><br>
+<input type="text" required id="full name" name="full name"><br><br>
+
+<label for="email">Email:</label><br>
+<input type="email" required id="email" name="email"><br><br>
+
+<label for="password">Password</label><br>
+<input type="password" required id="password" name="password"><br><br>
+
+<label for="phone">Phone</label><br>
+<input type="tel" required id="phone" name="phone"><br><br>
+
+        <h3>Order Information</h3>
+
+<label for="quantity">Quantity</label><br>
+<input type="number" id="quantity" name="quantity" min="1" required><br><br>
+
+<label for="delivery date">Preferred Delivery date:</label>
+<input type="date" id="delivery date" name="delivery date"><br><br>
+
+<label for="food">Select food item</label><br>
+<select id="food" name="food">
+    <option>Veg pizza</option>
+    <option>Garlic bread</option>
+    <option>Chessy burger</option>
+    <option>Coke</option>
+    <option>French fries</option>
+    <option>Tandoor chicken</option>
+    <option>Brownie</option>
+    <option>Waffle</option>
+
+</select>
+<br><br>
+     <h3>Payment Method</h3>
+     <input type="radio" id="cash" name="payment method">
+     <label for="cash">Cash</label><br>
+
+     <input type="radio" id="card" name="payment method">
+     <label for="card">Card</label><br>
+
+     <input type="radio" id="UPI" name="payment method">
+     <label for="UPI">UPI</label><br><br>
+
+    <h3>Extras</h3>
+     <input type="checkbox" id="chesse" name="extras">
+     <label for="cheese">Extra chesse</label><br>
+
+     <input type="checkbox" id="Cold drinks" name="extras">
+     <label for=" drinks">Cold drinks</label><br>
+
+     <input type="checkbox" id="dessert" name="extras">
+     <label for="dessert">dessert</label><br><br>
+
+       <h3>Delivery Instructions</h3>
+    <label for="address">delivery address</label><br>
+
+    <textarea id="address" name="address" rows="5" cols="40"></textarea>
+    <br><br>
+
+    <input type="submit" value="place order">
+    <input type="reset" value="clear form">
+
+
+ 
+  </form>
 </body>
 </html>
