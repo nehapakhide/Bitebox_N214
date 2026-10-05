@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        
+        .container{
+            height: 500px;
+            width: 50%px;
+            background-color: burlywood;
+            padding: 50px;
+        }
+        .box{
+            border: 2px solid black;
+            height: 400px;
+            width: 250px;
+            margin: 20px;
+            display: inline-block;
+            background-color: whitesmoke;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px;
+            position: sticky;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+            margin:20px;
+            box-shadow: 5px 5px 10px;
+            position:relative;
+            top:-50px;
+        }
+        .position{
+            height: 400px;
+            width: 600px;
+            border: 2px solid black;
+            display:inline-block;
+        }
+        #demo{
+            background-color: red;
+            height: 70px;
+            width: 70px;
+            border: 2px solid black;
+            position:relative;
+            left: 50px;
+            top: 30px;
+            margin: 10px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+   
+        <div class="box">
+            <img src="assests/images/french fries.png">
+            <h3>french fries</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ab.</p>
+            <h4>Price:Rs.400</h4>
+            <button>Buy</button>
+        </div>
+        <div class="box">
+            <img src="assests/images/LOGO.png">
+            <h3>Logo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, atque!</p>
+             <h4>Price:Rs.400</h4>
+             <button>Buy</button>
+        </div>
+        <div class="box">
+            <img src="assests/images/burger.png">
+            <h3>burger</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reprehenderit.</p>
+             <h4>Price:Rs.400</h4>
+             <button>Buy</button>
+
+        </div>
+       
+    </div>
+    <div class="position">
+        <div id="demo">
+        </div>
+    </div>
+</body>
+</html>
+

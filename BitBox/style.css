@@ -1,0 +1,41 @@
+h1,h5,p{
+    color:aqua
+}
+h2,h3,h4,h6{
+    color:darksalmon
+} 
+div >p{
+    color:coral;
+ }
+ input[type="text"]{
+    border:1px solid darkslateblue;
+ }
+
+    input[type="password"]{
+    border:1px solid limegreen;
+}
+
+
+ p::first-letter{
+    font-size: 40px;
+ }
+ p::before{
+    content:"★";
+ }
+p::after{
+    content:"✨";
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    font-weight: 900;
+    line-height: 1.6;
+    text-transform: uppercase;
+}
+{
+    text-decoration: none;
+}
