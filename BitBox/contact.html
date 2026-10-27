@@ -84,49 +84,65 @@
     </div>
 </section>
 
-<section id="business-hours">
-    <div class="hours-container">
+<!--================ Contact Details Section ================-->
+<section id="contact-details">
+
+    <!-- Left Column -->
+    <div class="left-column">
         <!-- Business Hours -->
-        <article>
-          <div>
-              <img src="assests/icons/back-in-time.png" alt="Clock Icon">
+        <div class="business-card">
             <h2>Business Hours</h2>
-            <table>
-                <tr>
-                    <td>Monday – Friday</td>
-                    <td>11:00 AM – 11:00 PM</td>
-                </tr>
- 
-                <tr>
-Create a Business Hours section that informs about the restaurant's operating schedule.
+            <hr>
+            <div class="business-content">
+                <img src="assests/icons/back-in-time.png" alt="Clock">
+                <table>
+                    <tr> <td>Monday – Friday</td>
+                         <td>11:00 AM – 11:00 PM</td>
+                    </tr>
 
-3
+                    <tr> <td>Saturday</td>
+                        <td>10:00 AM – 12:00 AM</td>
+                    </tr>
 
-Note: Before starting this step, remove the Contact Information, Opening Hours, and Customer Information sections from the Home page (index.html), as these sections will now be included in the dedicated Contact page (contact.html).
+                    <tr> <td>Sunday</td>
+                        <td>10:00 AM – 10:00 PM</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
 
-6
- <td>Saturday</td>
-                    <td>10:00 AM – 12:00 AM</td>
-                </tr>
+        <!-- Event Card -->
+        <div class="event-card">
+            <img src="assests/icons/calendar.png" alt="Calendar">
+            <div>
+                <h3>Planning a special event?</h3>
+                <p>
+                    We also offer catering services for parties,
+                    events and corporate meetings.
+                </p>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </div>
 
-                <tr>
-                    <td>Sunday</td>
-                    <td>10:00 AM – 10:00 PM</td>
-                </tr>
-            </table>
-          </div>
-        </article>
+    <!-- Right Column -->
+    <div class="right-column">
+        <h2>Send Us a Message</h2>
+        <hr>
+        <form>
+            <div class="form-row">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+            </div>
 
-        <!-- Catering Information -->
-        <article>
-            <img src="assests/icons/calendar.png" alt="Event Icon">
-            <h3>Planning a Special Event?</h3>
-            <p>
-                We also offer catering services for birthday parties,
-                family gatherings, corporate meetings, and special events.
-            </p>
-            <a href="#">Contact Us</a>
-        </article>
+            <div class="form-row">
+                <input type="tel" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+
+             <textarea placeholder="Your Message"></textarea>
+            <button>Send Message ✈</button>
+        </form>
     </div>
 </section>
 
@@ -192,9 +208,10 @@ requests, or other messages directly to the BiteBox team.
 </section>
  <footer>
 
-    <!-- Footer Logo Section -->
-    <section>
-        <img src="assests/images/LOGO.png" alt="BiteBox Logo" width="180">
+    <div class="footer-container">
+
+        <section>
+             <img src="assests/images/LOGO.png" alt="BiteBox Logo" width="180">
         <p> Delicious food delivered to your doorstep.
             Fresh, fast and tasty!
         </p>
@@ -214,13 +231,10 @@ requests, or other messages directly to the BiteBox team.
  <a href="#">
             <img src="assests/images/YT.jfif" alt="YouTube" width="35" height="35">
         </a>
-    </section>
+        </section>
 
-    <hr>
-
-    <!-- Quick Links -->
-    <section>
-        <h3>Quick Links</h3>
+        <section>
+             <h3>Quick Links</h3>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="menu.html">Menu</a></li>
@@ -228,13 +242,10 @@ requests, or other messages directly to the BiteBox team.
             <li><a href="contact.html">Contact</a></li>
             <li><a href="cart.html">Cart</a></li>
         </ul>
-    </section>
+        </section>
 
-    <hr>
-
-    <!-- Customer Service -->
-    <section>
-        <h3>Customer Service</h3>
+        <section>
+             <h3>Customer Service</h3>
         <ul>
             <li>Track Order</li>
             <li>FAQs</li>
@@ -242,23 +253,15 @@ requests, or other messages directly to the BiteBox team.
             <li>Return Policy</li>
             <li>Terms & Conditions</li>
         </ul>
+        </section>
 
-    </section>
-
-    <hr>
-
-    <!-- Contact Information -->
-    <section>
-        <h3>Contact Us</h3>
+        <section>
+             <h3>Contact Us</h3>
         <p>📞 +91 98765 43210</p>
         <p>✉ support@bitebox.com</p>
         <p>📍 123 Food Street, Mumbai, Maharashtra 400001 </p>
-    </section>
-
-    <hr>
-
-    <!-- Payment Methods -->
-    <section>
+        </section>
+        <section>
         <h3>Payment Methods</h3>
         <img src="assests/images/VISA.jfif" alt="Visa" width="60">
         <img src="assests/images/Card.jfif" alt="MasterCard" width="60">
@@ -267,8 +270,10 @@ requests, or other messages directly to the BiteBox team.
     </section>
 
     <hr>
-    <p> © 2026 BiteBox. All Rights Reserved. </p>
 
+    </div>
+
+    <p>© 2026 BiteBox. All Rights Reserved.</p>
 </footer>
 </body>
 </html>
